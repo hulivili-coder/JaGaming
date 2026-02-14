@@ -1,0 +1,16 @@
+{
+  "name": "fun-game",
+  "version": "1.0.0",
+  "description": "Ultimate game launcher",
+  "main": "ja_gaming.js",
+  "bin": "ja_gaming.js",
+  "scripts": {
+    "start": "node ja_gaming.js",
+    "build": "pkg . --targets node18-win-x64 --output App.Installer/JaGaming.exe"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
